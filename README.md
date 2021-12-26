@@ -1,2 +1,2 @@
 # Python-Skills
-Skills from basic to advanced
+ This project is about Python skills from basics to adavnced.
