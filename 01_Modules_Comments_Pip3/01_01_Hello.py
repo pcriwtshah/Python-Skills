@@ -17,6 +17,6 @@ print("Welcome to learn Python,", name)
 
 
 
-#This is not needed but to show how to import modules
+#This is to show how to import modules
 import os  #importing os module
 
