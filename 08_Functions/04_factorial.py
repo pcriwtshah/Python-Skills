@@ -1,4 +1,5 @@
-#This program will define a function to find the factorial of a number.
+#This program will define a function to find the factorial of a number and 
+# use the function to calculate the factorial.
 
 #Defining the function
 def factorial(x):
@@ -15,5 +16,3 @@ elif num > 0:
     print("The factorial of", num, "! is", factorial(num))
 else:
     print("The factorial is not defined for negative numbers")
-
-
