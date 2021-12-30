@@ -1,0 +1,9 @@
+This is my poem.
+I don't know how to write poem
+ I am appending this text to this file
+I am appending this sentence to this file
+I am appending this sentence to this file.
+Each time I run the program, each time it will be appended
+I am appending this sentence to this file.
+Each time I run the program, each time it will be appended
+I can call this write function as many times as I need before I close the file
