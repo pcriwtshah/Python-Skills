@@ -27,7 +27,8 @@ f.close()  #must close the file
 # To check if a given word is present in a file
 f = open('09_01_poem.txt', 'r')
 data = f.read()
-if 'Twinkle' in data:
+if 'twinkle' in data.lower(): #for case sensitive case
+#if 'Twinkle' in data:
     print("Twinkle is present in a file")
 else:
     print("Twinkle is not present in a file")

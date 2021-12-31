@@ -1,6 +1,6 @@
 #prints the hiscore in hiscore.txt file
 def game():
-    return 45
+    return 34
 
 score = game()
 
