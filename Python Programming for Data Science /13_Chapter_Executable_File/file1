@@ -1,8 +1,0 @@
-
-  467  pyinstaller --onefile hello.py
-  468  pyinstaller --version
-  469  su
-  470  su
-  471  which python3
-  472  which pyinstaller
-  473  pip3 install pyinstaller
