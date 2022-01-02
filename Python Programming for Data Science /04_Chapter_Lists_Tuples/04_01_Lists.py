@@ -5,7 +5,7 @@ print(a)
 a[0] = 98 #replaces 0th element in list a
 print(a) #print he updated list
 
-#Access the lement using index
+#Access the element using index
 print(a[3])
 
 #create a list with elements of different data types

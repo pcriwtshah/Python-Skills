@@ -1,12 +1,18 @@
 #This program will define a function to check if the number is prime.
 
-'''
-# NOT WORKING
+
 def isprime(x):
+    '''
+    if x == 2:
+        a = 'prime'
+        break
+    '''
     for i in range(2,x):
         if x%i == 0:
-            print(x, "is not prime")
+            a = 'not prime'
             break
         else:
-            print(x, "is prime")
-'''
+            a = 'prime'
+    return a
+    
+print(isprime(11))

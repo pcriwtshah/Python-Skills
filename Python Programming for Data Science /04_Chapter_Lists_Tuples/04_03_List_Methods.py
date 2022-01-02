@@ -35,3 +35,9 @@ b.remove(4)
 print(b)
 
 #Look python docs for more methods for list under section 5. Data Structures> 5.1 More on lists
+
+
+#To add an element at the end of the empty list
+x = []
+x.append(1212)
+print(x)
