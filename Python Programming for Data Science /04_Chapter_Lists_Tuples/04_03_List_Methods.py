@@ -1,5 +1,19 @@
 #Some cool stuff you can do with list
 
+'''
+List Methods:
+list.index()
+list.append()
+list.extend()
+list.insert()
+list.remove()
+list.count()
+list.pop()
+list.reverse()
+list.sort()
+list.copy()
+list.clear()
+'''
 a = [3, 2, 6, 7, 4, 12, 9, 10, 15]
 print(a)
 a1 = a.sort() # the sorted list will not be assigned to list a1. Instead a will be sorted.
@@ -41,3 +55,20 @@ print(b)
 x = []
 x.append(1212)
 print(x)
+
+#To count the element in the list
+#Syntax: list.count(element)
+#Return Value: The count() method will return 
+# an integer value, i.e., the count of the given 
+# element from the given list. It returns a 0 if 
+# the value is not found in the given list.
+list1 = ['red', 'green', 'blue', 'orange', 'blue', 'green', 'gray', 'green', 'yellow', 'purple', 'yellow', 'blue']
+color_count = list1.count('blue')
+print('The count of color: blue is ', color_count)
+
+color_count1 = list1.count('green')
+print('The count of color: green is ', color_count1)
+
+list1 = [7,3,4,3,9,3,5,6,3]
+count3 = list1.count(3)
+print('The count of element: 3 is ', count3)

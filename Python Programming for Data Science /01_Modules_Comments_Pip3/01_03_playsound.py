@@ -11,4 +11,4 @@ playsound('filepath with double backslash\\play.mp3)
 
 from playsound import playsound
 playsound('filepath with double backslash\\play.mp3')
-# This program will not work becasue module playsound is not instralled becasue pip is not found in bash.
+# playsound is installed; find how to put path of mp3 file to play sound

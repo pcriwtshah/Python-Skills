@@ -1,3 +1,24 @@
+'''
+List Introduction
+List Create
+List add/append
+List update values
+list iterate/loop
+list remove values
+list search values
+list sort values
+
+
+Math Operation
+list mean
+list median
+list mode
+list std
+list add
+list abs
+
+'''
+
 # Lists are mutable. Create lists using []
 a =[2, 4, 5, 7, 8, 12, 13, 14, 15]
 #print the list 
@@ -38,3 +59,4 @@ marks.sort()
 print(marks)
 print(sum(a)) # make sure m1,m2 ...m5,m6 are int not strings
 print(marks[0]+marks[1]+marks[2])
+print(int(marks[0])+ int(marks[1])+ int(marks[2]))
